@@ -22,7 +22,7 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-   <Config Name="Web Port" Target="36400" Default="36400" Mode="tcp" Description="The port used for the web interface." Type="Port" Display="always" Required="true" Mask="false">36400</Config>
+  <Config Name="Web Port" Target="36400" Default="36400" Mode="tcp" Description="The port used for the web interface." Type="Port" Display="always" Required="true" Mask="false">36400</Config>
   <Config Name="App Data" Target="/var/www/config" Default="" Mode="rw" Description="Persistent configuration data." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/m3u-editor/data/</Config>
   <Config Name="Postgres Data" Target="/var/lib/postgresql/data" Default="" Mode="rw" Description="Persistent Postgres data." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/m3u-editor/pgdata/</Config>
   <Config Name="User Uploaded Assets" Target="/var/www/html/storage/app/public" Default="" Mode="rw" Description="Persistent user uploaded assets." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/m3u-editor/storage/</Config>
